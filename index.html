@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="./style.css">
-    <title>Passanger counter</title>
+    <title>Passenger Counter</title>
 </head>
 <body>
-    <h1>People entered:</h1>
-    <h2 id="count-el">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <p id="save-el">Previous entries: </p>
+    <div class="container">
+        <h1>People Entered:</h1>
+        <h2 id="count-el">0</h2>
+        <div class="button-container">
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
+        <p id="save-el">Previous entries: </p>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
